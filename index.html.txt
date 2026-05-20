@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PromSec Global P.C.</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body{
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <!-- HERO -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+
+    <img src="logo.png" alt="PromSec Logo" class="w-48 mb-8">
+
+    <h1 class="text-5xl md:text-6xl font-semibold text-[#0A2342] mb-6">
+      Strategic Consulting & Modern IT Solutions
+    </h1>
+
+    <p class="max-w-2xl text-lg text-gray-600 mb-10 leading-relaxed">
+      PromSec Global P.C. delivers professional consulting and technology
+      solutions tailored for modern businesses worldwide.
+    </p>
+
+    <a href="#contact"
+      class="bg-[#0A2342] hover:bg-[#123766] text-white px-8 py-4 rounded-full transition duration-300">
+      Contact Us
+    </a>
+
+  </section>
+
+  <!-- SERVICES -->
+  <section class="py-24 bg-gray-50 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-semibold text-[#0A2342] mb-4">
+          Our Services
+        </h2>
+
+        <p class="text-gray-600">
+          Professional consulting and digital solutions for modern organizations.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+          <h3 class="text-2xl font-semibold mb-4 text-[#0A2342]">
+            IT Consulting
+          </h3>
+
+          <p class="text-gray-600 leading-relaxed">
+            Infrastructure, systems optimization, and digital transformation services.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+          <h3 class="text-2xl font-semibold mb-4 text-[#0A2342]">
+            Business Advisory
+          </h3>
+
+          <p class="text-gray-600 leading-relaxed">
+            Strategic planning and operational consulting tailored to business growth.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+          <h3 class="text-2xl font-semibold mb-4 text-[#0A2342]">
+            Security & Infrastructure
+          </h3>
+
+          <p class="text-gray-600 leading-relaxed">
+            Reliable systems and secure environments for modern enterprises.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section class="py-24 px-6">
+
+    <div class="max-w-4xl mx-auto text-center">
+
+      <h2 class="text-4xl font-semibold text-[#0A2342] mb-8">
+        About PromSec
+      </h2>
+
+      <p class="text-lg text-gray-600 leading-relaxed">
+        PromSec Global P.C. is a modern consulting and IT company focused on
+        delivering strategic guidance, technology-driven services, and reliable
+        business solutions in an evolving digital environment.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-24 bg-gray-50 px-6">
+
+    <div class="max-w-3xl mx-auto">
+
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-semibold text-[#0A2342] mb-4">
+          Contact Us
+        </h2>
+
+        <p class="text-gray-600">
+          We’d be happy to discuss your business needs.
+        </p>
+      </div>
+
+      <form
+        action="https://formsubmit.co/YOUR_EMAIL@example.com"
+        method="POST"
+        class="space-y-6">
+
+        <input
+          type="text"
+          name="name"
+          placeholder="Full Name"
+          required
+          class="w-full p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#0A2342]">
+
+        <input
+          type="email"
+          name="email"
+          placeholder="Email Address"
+          required
+          class="w-full p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#0A2342]">
+
+        <textarea
+          name="message"
+          rows="6"
+          placeholder="Your Message"
+          required
+          class="w-full p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#0A2342]"></textarea>
+
+        <button
+          type="submit"
+          class="w-full bg-[#0A2342] hover:bg-[#123766] text-white py-4 rounded-xl transition duration-300">
+          Send Message
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-10 text-center border-t border-gray-100">
+
+    <div class="mb-6 flex justify-center gap-6">
+
+      <a href="#" class="text-gray-500 hover:text-[#0A2342]">
+        Facebook
+      </a>
+
+      <a href="#" class="text-gray-500 hover:text-[#0A2342]">
+        Instagram
+      </a>
+
+      <a href="#" class="text-gray-500 hover:text-[#0A2342]">
+        LinkedIn
+      </a>
+
+    </div>
+
+    <p class="text-gray-400 text-sm">
+      © 2026 PromSec Global P.C. All Rights Reserved.
+    </p>
+
+  </footer>
+
+</body>
+</html>
